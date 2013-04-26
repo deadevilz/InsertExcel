@@ -31,6 +31,9 @@
 							insertUser($objArr[9],$objConnect);
 							insertUser($objArr[10],$objConnect);
 
+							insertUser2($objArr[8],$objConnect);
+							insertUser2($objArr[9],$objConnect);
+
 							//Check user
 							$useridFLO = selectUser($objArr[8],$objConnect);
 							$useridGW = selectUser($objArr[9],$objConnect);
@@ -128,6 +131,18 @@
 				mysql_query($inuserSQL,$objConnect) or die ("SQL error");
 			}	
 	   }
+	   function insertUser2($username,$objConnect)
+	   {
+			if(selectUser2($username,$objConnect)=="")
+			{	$maxuser = 0;
+				$maxuser = selectMaxUser2($objConnect)+1;
+				//echo "<br>".$maxuser."</br>";
+				//echo "<br>".$username."</br>";
+				$inuserSQL = "INSERT INTO user2 (User_id,username) VALUES(".$maxuser.",'".$username."')";
+				//echo "<br>".$inuserSQL."</br>";
+				mysql_query($inuserSQL,$objConnect) or die ("SQL error");
+			}	
+	   }
 	function checkSRDup($objArr,$objConnect,$countrow)
 	{
 		$date = new DateTime($objArr[1]);
@@ -212,6 +227,20 @@
 	function deleteFile($filename)
 	{
 		unlink($filename);
+	}
+	function selectUser2($username,$objConnect)
+	{
+		$selectuser = "SELECT User_id FROM user2 WHERE username ='".$username."'";
+		$useridquery = mysql_query($selectuser,$objConnect);
+		$userid = mysql_fetch_assoc($useridquery);
+		return $userid['User_id'];
+	}
+	function selectMaxUser2($objConnect)
+	{
+		$selectmaxuser = "SELECT Max(User_id) as max FROM user2";
+		$maxuserquery = mysql_query($selectmaxuser,$objConnect);
+		$maxuser = mysql_fetch_assoc($maxuserquery);
+		return $maxuser['max'];
 	}
 ?>
 </body>
