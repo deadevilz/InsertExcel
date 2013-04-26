@@ -57,7 +57,7 @@
 							$strSQL .=",'".$strdate."',\"".$objArr[4]."\",\"".$objArr[5]."\",\"".$objArr[6]."\",\"".$objArr[7]."\",\"".$useridFLO."\",\"".$useridGW."\"";
 							$strSQL .=",'".$useridPE."',\"".$objArr[11]."\",'".$RCA_ID."' ";
 							$strSQL .=",'".$Compo_ID."',\"".$objArr[14]."\",\"".$objArr[15]."\",\"".$objArr[16]."\") ";
-							echo $strSQL;
+							//echo $strSQL;
 							mysql_query($strSQL,$objConnect)or die("SQL ERROR INSERT");
 							echo "<hr><b>ROW ".$countrow."</b>Add Record SUCCESS";
 					}
@@ -149,7 +149,7 @@
 		$sr_operate = $date->format('Y-m-d');
 		$date2 = new DateTime($objArr[2]);
 		$str_in = $date2->format('Y-m-d');	
-		$sql = "SELECT * FROM table1 WHERE SR='".$objArr[0]."' AND SR_in ='".$str_in."' AND PE=(SELECT User_id FROM user WHERE username ='".$objArr[10]."')";
+		$sql = "SELECT * FROM table1 WHERE SR='".trim($objArr[0])."' AND SR_in ='".$str_in."' AND PE=(SELECT User_id FROM user WHERE username ='".$objArr[10]."')";
 		//echo $sql;
 		$query = mysql_query($sql,$objConnect) or die("SQL ERROR");
 		$rowid = mysql_fetch_assoc($query);
