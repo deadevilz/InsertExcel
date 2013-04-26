@@ -1,0 +1,104 @@
+1-8189137881,10/1/2013 21:57,1/14/2013,1/15/2013,3,Mr Miftah Khan,Thomson Reuters,J_BORDEWICK,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,BUG/ASG - NOT UPDATING CONSISTENTLY </TNA> in TAS OBJECT,WHS,Time & Sales,WHS to GLO_TS_DEV,,
+1-8181260114,1/9/2013 16:22,1/14/2013,1/15/2013,3,Mr Markku Kaloniemi,FIM Asset Management,N_MAYORAL,P_LEDISQUE,P_LERTSUKITTIPONGSA,Eikon crashes linking OUT1V.HE ric to a Sidebar object,Defect,Crash,MR-8025 http://www.iajira.amers.ime.reuters.com/browse/MR-8025,,
+1-8205625304,1/15/2013 10:19,1/16/2013,1/22/2013,3,Mr Jefferson Wong,Thomson Reuters,I_DELEON,P_ANUYOUTHAPONG ,P_LERTSUKITTIPONGSA,DDE Server and Eikon linking,Defect,General,Known defect: DCC-6783,,
+1-8198928671,1/14/2013 9:41,1/17/2013,1/28/2013,3,Ms Michelle Tsai,"Taiwan Life Insurance Co., Ltd.",C_CHAU,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Suspect calculation of composite in chart. The result is different from what we have when we calculate manually.,WHS,Chart,WHS to GLO_TS_DEV,,
+1-8230883444,1/18/2013 21:49,1/21/2013,2/5/2013,3,Ms Kelly Staton,Thomson Reuters,J_BORDEWICK,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,unctionality-drill into VWAP by time frame/price,ER,Chart,"No information for further investigation, return to FLO for closure.",Customer hold from 29Jan-5Feb,5
+1-8190535674,1/11/2013 0:40,1/22/2013,1/31/2013,3,Mr Armin Guldalian,Thomson Reuters,P_COULTHARD,P_LEDISQUE,P_LERTSUKITTIPONGSA,Kobra crashing; I have attached dump files,FLO,Crash,"No information for further investigation, return to FLO for closure.","Dump-kobra-20130110-170742-4028.dmp match with EDTF 548 and 565
+Exception Hash (Major/Minor): 0x077e0a3f.0x182e005b
+Dump-kobra-20130110-171847-8960.dmp matches with another
+Exception Hash (Major/Minor): 0x1e500a1d.0x51701043",
+1-8235981955,1/21/2013 13:42,1/22/2013,1/28/2013,3,Mr Yulin Zhang,Euro-Asia Auto (Shanghai) Limited,J_SUN,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,<XAU=> suspect data of 2-hour chart,ER,Chart,ER-583,,
+1-8253391290,1/24/2013 12:18,1/25/2013,1/25/2013,3,Mr Billy Sun,Bank Of East Asia - Guangzhou Branch,V_YEUNG,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,Negative volume of <.CSI300>,WHS,Data,WHS to BLR_TSDB_DATA,,
+1-8259155994,2/26/2013 0:02,1/28/2013,1/30/2013,4,Mr Daisuke Kurogo,Thomson Reuters,T_CHUNG,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Timeseries for BACKWARDATION STATUS.VALUE within Spreadsheet object,WHS,Spreadsheet,WHS to EUR_LON_TS1HELP_MTC ,,
+1-8238484404,1/21/2013 20:20,1/30/2013,1/30/2013,3,De heer Willem Klein Haneveld,Quantrust Asset Management,S_MYERS,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,RIC: ITB last does not equal close,WHS,Data,WHS to GLO_IPC_DATA,,
+1-8271757236,1/29/2013 8:29,1/31/2013,1/31/2013,2,Mr Takuya Kinoshita,Hyogo Shinkin Bank (Kobe),MI_SHIMOKAWA,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Japanese Eikon has english language in menus below the helios.,Story,General,"LZJ-700
+DCC-7743",,
+1-8268627262,1/28/2013 20:25,1/31/2013,2/12/2013,3,Mrs Derya Dagli,Tc Ziraat Bankasi As,G_ZORBA,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,"Quick chart>> Curve Chart cannot chart ""Compound yield"" for <TRBMK=>",ER,Quick Chart,"ER-1740
+Summary: [Chart][Curve Quick Chart] Yield Curve to support ""Compound Yield"" field of <TRBMK=>
+Link: http://www.iajira.amers.ime.reuters.com/browse/ER-1740",,
+1-8291697843,2/1/2013 11:05,2/1/2013,2/6/2013,3,Mr Ku Wang,Phillip Securities Pte Ltd,K_CAPARAS,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,[Eikon 3.0] [Charts] Large font in charts,Defect,Chart,"ECDCC-2195
+Summary: [Chart][Eikon3] Big font after upgrade to Eikon 3.0.
+Link: http://iajira.amers.ime.reuters.com/browse/ECDCC-2195",,
+1-8298044838,2/4/2013 6:27,2/4/2013,2/6/2013,4,Mr Norihisa Hirota,Fuji Oil Co Ltd,F_TAKAYAMA,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Font Size on Chart Issue after Desktop 3.0 Upgrade,Defect,Chart,"ECDCC-2195
+Summary: [Chart][Eikon3] Big font after upgrade to Eikon 3.0.
+Link: http://iajira.amers.ime.reuters.com/browse/ECDCC-2195",,
+1-8299879878,2/4/2013 15:52,2/5/2013,2/5/2013,4,Mr Arnold Chan,Stockwell Commodities Limited,RI_PHILLIPS,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,How to change the colours of the UP arrows to BLUE only and DOWN arrows to RED ,ER,Quote List,"ER-1698
+Summary: [Quote List] Customized color of arrow up/down
+Link: http://iajira.amers.ime.reuters.com/browse/ER-1698",,
+1-8298545048,2/4/2013 8:57,2/5/2013,2/5/2013,3,Mr Noriaki Koganei,Nihon Unicom Inc,M_HOSHINO,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,Historical data of <ZIc1> is not available.,WHS,Chart,WHS to GLO_TS_DEV,,
+1-6334025360,12/7/2011 16:52,2/6/2013,2/12/2013,3,Herr Martin Bremers,Dekabank Deutsche Girozentrale,S_BENZ,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Alert set is triggered by blank closing run,FLO,Alert,Central Alert feature in Eikon 3.0 fixes this issue.,,
+1-8300162669,2/4/2013 16:52,2/6/2013,2/8/2013,3,Mr Saleh Nasser,Pharos,R_SAIEG,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,client is charting a CDS and she'd like to have CDS instrument template,ER,Chart,"ER-1718
+Summary: [Chart] Options to set User-defined Template for CDS instrument
+Link: http://iajira.amers.ime.reuters.com/browse/ER-1718",,
+1-8295788164,2/2/2013 0:11,2/7/2013,2/8/2013,3,Sr Jorge Bustos,Banco Central De La Rep Argentina,B_FREITAS,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Client in Eikon reports for ARSB= chart is showing values for 02/03/2012 and today is 01/03/2012. Tick Chart shows below Febraury 3rd data.,ER,Chart,"http://iajira.amers.ime.reuters.com/browse/ECDCC-488
+http://iajira.amers.ime.reuters.com/browse/ECDCC-679",Story,
+1-8296648897,2/2/2013 3:34,2/8/2013,2/22/2013,3,Mr Kyle Juday,Rowan Companies,N_JACKSON,L_FERRE,P_LERTSUKITTIPONGSA,Eikon 3.0-Crash Dump,FLO,Crash,"Registering OLE32 dlls solved the issue :
+- OLE32.DLL 
+- OLEAUT32.DLL 
+- OLEACC.DLL 
+- OLEPRN.DLL 
+- OLEPRO32.DLL",,
+1-8320494114,2/7/2013 14:16,2/11/2013,2/15/2013,4,Ms Iris Wong,Deutsche Bank Hong Kong,S_MAK,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,"Risk Reversal chart, say EURUSD 25D Risk Reversal.",FLO,Chart,"No information for further investigation, return to FLO for closure.",,
+1-8330275364,2/8/2013 22:29,2/11/2013,2/11/2013,3,Mr Owen Stillings,PHILLIPS 66 COMPANY,S_MYERS,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,Incorrect ATR analysis,Defect,Chart,"ECDCC-2215
+Summary: [Chart] Incorrect calculation of ATR analysis over negative value
+Link: http://www.iajira.amers.ime.reuters.com/browse/ECDCC-2215",,
+1-8280757454,1/30/2013 18:16,2/11/2013,2/19/2013,3,Mr Daniele Mutton,Alpe Adria Gestioni SIM Spa,A_MERCURIO,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Chart shows ** error opening instrument** ,Defect,Chart,"ECDCC-2228
+Summary: [Chart]Chart Error - ""Error opening Instrument"", when open Europe Fixed Income template file.
+Link: http://iajira.amers.ime.reuters.com/browse/ECDCC-2228",,
+1-8327199296,2/8/2013 15:36,2/13/2013,2/26/2013,3,Mr Didier Margetyal,Tailor Capital,J_VANDYCKE,L_FERRE,P_LERTSUKITTIPONGSA,User has a file where all the charts have values that are crossed out. ,Defect,Chart,Provided the fix,"Has another QL issue - MR-8624
+Font",
+1-8339731950,2/12/2013 12:10,2/13/2013,2/14/2013,3,Mr Daisuke Kurogo,Thomson Reuters,T_CHUNG,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,"Enhancement request for the timeseries field ""BACKWARDATION STATUS.VALUE"" of <XXXX.JSF> eg <8304.JSF> to be made available for =SERIES() function in Eikon spreadsheet. ",WHS,Spreadsheet,WHS to BLR_TSDB_DATA,,
+1-8352956224,2/14/2013 10:25,2/14/2013,2/15/2013,3,Ms Rie Theoharris,Thomson Reuters,J_MISA,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Eikon 3.0 - Issue on Eikon > Options is disabled,FLO,General,AAA,KOBRA.APPLICATION.GENERAL.OPTIONSAVAILABLEINRUNMODE to be “TRUE”.,
+1-8352846123,2/14/2013 9:58,2/15/2013,2/28/2013,3,Ms Hwee Cheng Eng,Ms Eng Hwee Cheng,DO_LEE,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,"Quotelist, it is showing generic names and when user clicks on the tab it shows from generic to specific quotelist name.",Defect,Quote List,MR-8624,,
+1-8353169794,2/14/2013 12:14,2/20/2013,2/21/2013,4,Ms Madoka Miyagi,Reuters,A_REGPALA,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,Chart legend adjustment,ER,Chart,"ER-1793
+Summary: [Chart] Legend remains as 2-line even chart is resized.
+Link: http://www.iajira.amers.ime.reuters.com/browse/ER-1793",,
+1-8370510404,2/18/2013 16:05,2/20/2013,2/21/2013,3,Herr Wolfgang Becker,Cliveden Trading AG,A_PASZUL,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,BUG/ASG - [Eikon 3.0] Huge fonts size in charts objects,Defect,Chart,"ECDCC-2195
+Summary: [Chart][Eikon3] Big font after upgrade to Eikon 3.0.
+Link: http://iajira.amers.ime.reuters.com/browse/ECDCC-2195",,
+1-8295796044,2/1/2013 22:55,2/21/2013,2/26/2013,3,Mr Luca Costantini,Thomson Reuters,C_HAMM,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Yield Curve Spread analysis does incorrect scaling.,FLO,Chart,Expected Behavior,,
+1-8381175830,2/20/2013 12:26,2/22/2013,2/22/2013,3,Ms Jie Yu,Euro-Asia Auto (Shanghai) Limited,XD_RUAN,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,missing GCJ3 candles on 6 hour customized chart. however hourly chart with data,ER,Chart,"ECDCC-1397, ECDCC-1758",Story,
+1-8389180634,2/21/2013 16:10,2/22/2013,3/4/2013,4,Mr Jaakko Koskentola,Bank of Finland,S_ZAMORA,L_FERRE,P_LERTSUKITTIPONGSA,BUG/ASG - CHARTING ISSUE for eikon for NES - Euribor=X RICs.,FLO,Chart,Permission issue,,
+1-8378262840,2/19/2013 22:20,2/26/2013,3/13/2013,3,Mr Arash Kamyab,Thomson Reuters,J_HORTON,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,Alert for News Code [AA],ER,Alert,"ER-1939
+Summary: Central Alert doesn't recognize AA code
+Link: http://www.iajira.amers.ime.reuters.com/browse/ER-1939",,
+1-8234595382,1/21/2013 13:35,2/26/2013,2/27/2013,3,Mr Naoyuki Endo,Ando Securities Co Ltd Okinawa,T_SAITO,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,Chart Freeze after run excel macro,WHS,Chart,WHS to GLO_TS_DEV,,
+1-8273780964,1/29/2013 16:18,2/27/2013,2/28/2013,2,Herr Mag Helmut Holzer,Raiffeisenlandesbank Oberoesterreich AG,D_GEORGES,L_FERRE,P_LERTSUKITTIPONGSA,Eikon 2.x and 3.x crash when open customer file,Defect,Crash,ECDCC-2245,,
+1-8314800051,2/6/2013 16:52,2/27/2013,3/8/2013,3,Mr Graeme Olsen,Heritage Capital Management Ltd,JA_LENNON,L_FERRE,P_LERTSUKITTIPONGSA,BUG/ASG - Issue with Highlighing and Quotelist Sync,FLO,Quote List,Fixed by rebuild the sheet and upgrade to 3.1 also doesn't found the issue.,"user: jackie.lennon@thomsonreuters.com
+Pass: Belvedere01",
+1-8387684934,2/21/2013 9:29,2/27/2013,3/18/2013,4,Mr Doug Dick,Thomson Reuters,WA_WAN,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,"Hong Kong Stock Exchange not updating consistently, or delayed data or no data sometimes, after checking a few instrument",FLO,Chart,"No information for further investigation, return to FLO for closure.",,
+1-8327722154,2/8/2013 16:00,3/4/2013,3/4/2013,3,Herr Horst Groegler,MAN SE,H_DEDEURWAERDERE,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,Eikon 3.0 - crash,Defect,Crash,ECDCC-2245,,
+1-8409866467,2/26/2013 5:54,3/4/2013,3/8/2013,4,Mr Keiji Yasukawa,"MITA SECURITIES Co.,Ltd.",Y_KURODA,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Font Size on Chart Issue after Desktop 3.0 Upgrade - error font,FLO,Chart,"No information for further investigation, return to FLO for closure.",,
+1-8412437517,2/26/2013 15:55,3/4/2013,3/5/2013,4,Mr Masao Sakurai,Akagi Shin-Yo Kumiai,C_NISHIMOTO,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,"On Eikon <0#JGBP=R> Yield curve chart only displays tenors up to 14Y.
+On the quote there are tenors up to 30Y.",Defect,Chart,"ECDCC-2259
+Summary: [Chart] [Yield] Chart cannot displays all tenors of <0#JGBP=R>
+Link: http://www.iajira.amers.ime.reuters.com/browse/ECDCC-2259
+",,
+1-8417780829,2/27/2013 8:01,3/4/2013,3/6/2013,3,Mr Shuji Kosada,Nikko Asset Management,S_ANADA,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,"client uses portfolio, client gets internal error (????)",Defect,Portfolio & List,"PA-4614
+Summary: [Portfolio] ""Server Error"" when open customer portfolio with benchmark ""TOPIX Index"" and Currency ""JPY""
+Link: http://iajira.amers.ime.reuters.com/browse/PA-4614",,
+1-8418086194,2/27/2013 8:54,3/4/2013,3/20/2013,4,M Chris Moore,Thomson Reuters,T_CHUNG,L_FERRE,P_LERTSUKITTIPONGSA,Eikon 3.0 VBA/Macro for data from Chart to Eikon Excel,FLO,Chart,Return to FLO,Tony will handle this.,
+1-8428917996,2/28/2013 20:39,3/7/2013,3/14/2013,3,Mr Steve Green,Bank of Tokyo Mitsubishi UFJ Ltd,JA_AHMED,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,"Eikon 3 crash at 21:50 London time, every 
+evening.",Defect,Crash,ECDCC-2245,,
+1-8465713974,3/7/2013 9:42,3/8/2013,3/8/2013,3,Mr Jun Maeda,"Naito Securities Co.,Ltd.(Kanda)",K_HARADA,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,"[Ticker] Missing net change value when set ""Item Address Caption Displayed"" to ""No""
+",Defect,Ticker,"MR-8721
+Summary: [Ticker] Missing net change value when set ""Item Address Caption Displayed"" to ""No""
+Link: http://iajira.amers.ime.reuters.com/browse/MR-8721",,
+1-8422398542,2/27/2013 22:46,3/8/2013,3/21/2013,3,Mr Christian Ciszewski,Tuev Sued AG,S_BENZ,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Economic Indicator Quick Chart issue with Absolute Value,WHS,Quick Chart,WHS to GLO_ECOWIN_DBOP to make some field available to indicate data type.,"ER-1256
+Summary: [Quick Chart][ECI] Support GDP in Absolute Value (i.e. in Billion US dollar unit)
+Link: http://www.iajira.amers.ime.reuters.com/browse/ER-1256
+",
+1-8339731950,2/12/2013 12:10,3/12/2013,3/12/2013,3,Mr Daisuke Kurogo,Thomson Reuters,T_CHUNG,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,"Enhancement request for the timeseries field ""BACKWARDATION STATUS.VALUE"" of <XXXX.JSF> eg <8304.JSF> to be made available for =SERIES() function in Eikon spreadsheet. ",Defect,Spreadsheet,"MR-8735
+Summary: [Spread Sheet] [Series] Data from NDA_RAW in spread sheet object returns only single record.
+Link: http://iajira.amers.ime.reuters.com/browse/MR-8735",,
+1-8484064284,3/11/2013 17:20,3/15/2013,3/21/2013,3,Mr Nils Bostelmann,E.ON Global Commodities SE,A_PASZUL,T_BUDTHASAEN,P_LERTSUKITTIPONGSA,The values in Term Structure Chart on <0#LGOCAL:> do not correspond to values in Quote Object for <0#LGOCAL:>,FLO,Chart,Workaround: using Forward Curve Quick Chart.,"DSQC-3240
+ Subject: As a developer, I have to provide unit/currency conversion modules so that I can integrate it to any Quick Charts that require this function.
+ URL: http://www.iajira.amers.ime.reuters.com/browse/DSQC-3240
+",
+1-8316540731,2/6/2013 20:51,3/18/2013,3/19/2013,3,Mr Harry Rippon,Ofgem,S_MYERS,J_LISE,P_LERTSUKITTIPONGSA,Quote List Issue - Getting User ‘SL1-3PVBN01’ doesn’t have access to service.,WHS,Quote List,WHS to GLO_EIKON_ANALYTICS_DEV,"Eikon id: trcsgva.com.trhi.2@thomsonreuters.com
+Password: Reuters1",
+1-8483458241,2/6/2013 20:51,3/18/2013,,3,Mr Levent Durusoy,Yatirim Finansman Menkul Degerler As,U_YILMAZ,P_ANUYOUTHAPONG,P_LERTSUKITTIPONGSA,Gets ''error opening instrument'' in hart object In eikon for 0#TRBMK=,,Chart,,,
+1-8306689492,2/5/2013 14:59,3/18/2013,,2,Mr Mun Joon Lee,United Overseas Bank Malaysia Bhd,I_ADICAHYADI,J_LISE,P_LERTSUKITTIPONGSA,"Chart error ""4104: Data retrieval failure - insufficient resources""",FLO,Chart,"No information for further investigation, return to FLO for closure.",,2
+1-8533155661,3/19/2013 8:56,3/21/2013,3/21/2013,3,Mr wei iv,Genertec International Corporation,C_CHAU,E_HEMANIDHI,P_LERTSUKITTIPONGSA,"Wrong volume on chart <SCFM3>. There is a first Tick updated at 01:00:00 GMT with value 55,500. But in chart for Tick interval shows first Tick updated at 01:00:01 GMT",Defect,Chart,"ECDCC-1675 
+Subject: Missing first TICK in Chart when data come at the exact start time.
+URL: http://www.iajira.amers.ime.reuters.com/browse/ECDCC-1675",Story,

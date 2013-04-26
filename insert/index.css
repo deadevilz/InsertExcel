@@ -1,0 +1,42 @@
+.submit{
+	display: block;
+	background: yellow;
+	opacity: 0.8;
+	font: bold 20px Osaka;
+	border-radius: 5px;
+	height: 50px;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+	-webkit-transition:background 1s,width 1s;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.submit:hover{
+	background-color: red;
+	width: 200px;
+}
+.fieldset{
+	display: block;
+	background: red;
+	opacity: 0.7;
+	font: 20px Osaka;
+	border-radius: 10px;
+	height: 200px;
+	width: 400px;
+	padding: 10px;
+	margin: 20px;
+	-webkit-transition:background 1s;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+
+}
+.fieldset:hover{
+	background:yellow;
+	opacity: 0.8;
+}
+legend{
+	font: 30px bold black Osaka;
+}
